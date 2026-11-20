@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support 技术支持 · Peekaboo Words 奇奇看世界</title>
+  <style>
+    :root {
+      --bg: #F7F8F5;
+      --card: #FFFFFF;
+      --ink: #1E2B3A;
+      --muted: #5C6B7A;
+      --coral: #E05A47;
+      --teal: #2B7A8C;
+      --border: #DCE3E6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: var(--teal); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 840px; margin: 0 auto; padding: 28px 20px 64px; }
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 20px; background: var(--card); border: 1.5px solid var(--border);
+      border-radius: 20px; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;
+    }
+    .nav-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--ink); }
+    .nav-brand img { width: 32px; height: 32px; border-radius: 8px; }
+    .nav-links { display: flex; gap: 18px; font-size: 14px; font-weight: 600; }
+    .card {
+      background: var(--card); border: 1.5px solid var(--border); border-radius: 26px;
+      padding: 30px 26px; box-shadow: 0 8px 24px rgba(30, 43, 58, 0.05); margin-bottom: 22px;
+    }
+    h1 { font-size: 26px; margin-bottom: 8px; }
+    h2 { font-size: 18px; margin: 20px 0 10px; color: var(--ink); }
+    .faq-item {
+      border-top: 1px solid #EAEFF1; padding: 14px 0;
+    }
+    .faq-item:first-of-type { border-top: none; }
+    .faq-q { font-weight: 700; font-size: 15.5px; color: var(--ink); margin-bottom: 4px; }
+    .faq-a { font-size: 14.5px; color: var(--muted); }
+    .contact-btn {
+      display: inline-flex; align-items: center; gap: 8px; margin-top: 10px;
+      background: var(--coral); color: #FFFFFF; font-weight: 700;
+      padding: 11px 22px; border-radius: 999px;
+    }
+    footer { text-align: center; font-size: 13px; color: var(--muted); margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a class="nav-brand" href="./index.html">
+        <img src="./assets/icon.png" alt="Peekaboo Words" />
+        <span>Peekaboo Words · 奇奇看世界</span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html">首页 Home</a>
+        <a href="./support.html">技术支持 Support</a>
+        <a href="./privacy.html">隐私政策 Privacy</a>
+      </div>
+    </nav>
+
+    <section class="card">
+      <h1>技术支持与常见问题 · Technical Support</h1>
+      <p style="color: var(--muted); font-size: 15px;">
+        感谢使用《奇奇看世界》（Peekaboo Words）。如果您或孩子在使用过程中遇到任何问题或功能建议，欢迎随时查看下方使用指南或发送邮件给我们。
+      </p>
+      <a class="contact-btn" href="mailto:ygnjd2016@gmail.com?subject=Peekaboo%20Words%20Support">
+        联系支持团队 · ygnjd2016@gmail.com
+      </a>
+
+      <h2>常见问题 Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">1. 为什么在 iPhone 侧边静音模式下也能听到朗读？（Sound works even with Mute Switch）</div>
+        <div class="faq-a">我们在 iOS 原生音频会话中启用了教育多媒体播放模式（Playback），即使手机无意拨动了侧边静音开关，孩子点开卡片依然可以听见清晰的英语发音，只需用音量键调节大小即可。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">2. 如何切换美式（US）与英式（UK）发音？ / How to switch US &amp; UK accents?</div>
+        <div class="faq-a">您既可以在卡片详情页右上角一键点击「US / UK」胶囊实时切换并对比，也可以通过首页右上角的「锁形家长入口」进入家长中心设定全局默认口音。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">3. 家长中心与护眼延长如何解锁？（Parental Gate）</div>
+        <div class="faq-a">点击首页右上角锁图标会弹出两位数以内加法验证题，家长选出正确答案即可进入；该机制专门防止 3–6 岁幼童误入设置或擅自关闭护眼休息提醒。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">4. 「开口跟读」和「我的小世界自制卡片」会消耗流量或上传隐私吗？</div>
+        <div class="faq-a">完全不会。App 100% 离线运行，跟读音频仅保留在手机内存供即时回放，自制卡片的照片与父母录音也仅存储在本机本地存储中，不上传任何服务器。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">5. 如何控制低龄宝宝一次看太久？ / Eye-Care Reminder</div>
+        <div class="faq-a">家长中心可设定单次探索 10 / 15 / 20 / 30 分钟自动触发「小考拉奇奇护眼哄睡页」，伴随轻柔提示引导宝宝远眺休息。</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Louwill · Support Email: <a href="mailto:ygnjd2016@gmail.com">ygnjd2016@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
